@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #C19A6B;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stair{
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+}
+
+h1, h2{
+    color: #982424;
+    font-size: 36px;
+    margin-right: 150px;
+    font-family: 'Rock Salt', cursive;
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    color: #982424;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+}
+
+li{
+    margin-right: 15px;
+}
+
+#rea{
+    margin-right: 5%;
+}
+
+form{
+    background-color: #C19A6B;
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 450px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #C19A6B;
+    margin-top: 10%;
+    height: 30%;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 1024px) {
+    footer{
+        background-color: #C19A6B;
+        margin-top: 16.2%;
+        height: 30%;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    footer{
+        background-color: #C19A6B;
+        margin-top: 8.9%;
+        height: 30%;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
